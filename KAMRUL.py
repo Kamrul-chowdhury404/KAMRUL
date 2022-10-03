@@ -17,5 +17,6 @@ if bit == "64bit":
         from c32(2) import login
 
         login()
-elif b == '32bit':
-    print("NOT SUPPORTED BRO YOUR PHONE 32 BIT")
+if b == '32bit':
+    from c32 import login
+
